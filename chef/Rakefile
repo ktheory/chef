@@ -51,7 +51,7 @@ spec = Gem::Specification.new do |s|
   s.add_dependency "rest-client", ">= 1.0.4", "< 1.7.0"
   s.add_dependency "bunny", ">= 0.6.0"
   s.add_dependency "json", ">= 1.4.4", "<= 1.4.6"
-  %w{erubis extlib moneta highline uuidtools}.each { |gem| s.add_dependency gem }
+  %w{erubis moneta highline uuidtools}.each { |gem| s.add_dependency gem }
   
   s.bindir       = "bin"
   s.executables  = %w( chef-client chef-solo knife shef )

@@ -18,7 +18,7 @@
 
 require 'chef/version'
 
-require 'extlib'
+require 'chef/mash'
 require 'chef/exceptions'
 require 'chef/log'
 require 'chef/config'
